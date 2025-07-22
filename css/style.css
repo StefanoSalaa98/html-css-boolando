@@ -54,10 +54,20 @@ header img{
 
 .colonna{
     width:calc((100% / 3) - 20px);
-    height:400px;
-    background-color:blue;
+    min-height:500px;
+   /* background-color:blue; */
     border:1px solid black;
+    flex-grow:1;
 }
 
-.card{
+.card img{
+    width:100%;
+}
+
+.rosso{
+    color:red;
+}
+
+.barrato{
+    text-decoration: line-through;
 }
