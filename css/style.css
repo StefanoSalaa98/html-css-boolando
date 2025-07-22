@@ -6,6 +6,11 @@
     font-size: 12px;
 }
 
+ul li{
+    margin: 0;
+    padding: 0;
+}
+
 /*Regole Header*/
 header{
     height:50px;
@@ -29,15 +34,32 @@ ul{
     display:flex;
 }
 
-header ul li a{
+header a{
     color:white;
     text-decoration: none;
-    margin-left:10px;
 }
 
 header img{
     height:50%;
 }
+
+.lista-sx{
+    margin-left:0;
+}
+
+.lista-sx li{
+    margin-right:10px;
+}
+
+.lista-dx{
+    margin-right:0;
+}
+
+.lista-dx li{
+    margin-right:10px;
+}
+
+
 
 /*Regole Main*/
 
