@@ -91,9 +91,23 @@ header img{
 }
 
 .sconto{
-    position:absolute;
     text-align:center;
     background-color:red;
+    display: flex;
+    align-items: center;
+    padding:5px 10px;
+}
+
+.sostenibile{
+    text-align:center;
+    background-color:#008000;
+    display: flex;
+    align-items: center;
+    padding:5px 10px;
+}
+
+.marchetta{
+    position:absolute;
     color:white;
     top:80%;
     left:0%;
@@ -101,5 +115,6 @@ header img{
     height:4%;
     display: flex;
     align-items: center;
+    gap:5px;  
 }
 
