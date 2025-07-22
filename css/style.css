@@ -24,7 +24,7 @@ header{
     height:50px;
 }
 
-header ul{
+ul{
     list-style-type: none;
     display:flex;
 }
@@ -133,3 +133,53 @@ header img{
     display:block;
 }
 
+/*Regole Footer*/
+
+footer{
+    background-color:black;
+    color:white;
+    
+}
+
+.contenitore-footer{
+    width:80%;
+    
+    display:flex;
+    align-items: center;
+    padding:50px 0;
+}
+
+.footer-sx{
+    margin-left:0;
+    
+}
+
+.footer-dx{
+    margin-right:0;
+   
+}
+
+footer ul{
+    margin-top:10px;
+}
+
+.footer-sx li{
+    margin-right:10px;
+}
+
+.footer-dx li{
+    margin-left:10px;
+}
+
+.footer-dx li:first-child{
+    margin-left:0;
+}
+
+footer a{
+    color:white;
+    text-decoration: none;
+}
+
+.footer-dx i{
+    font-size:15px;
+}
