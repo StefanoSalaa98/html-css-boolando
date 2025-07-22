@@ -2,6 +2,8 @@
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
 }
 
 /*Regole Header*/
@@ -9,6 +11,8 @@ header{
     height:50px;
     background-color: #FF6900;
     position:fixed;
+    top: 0;
+    left: 0;
     width: 100%;
 }
 
@@ -35,3 +39,25 @@ header img{
     height:50%;
 }
 
+/*Regole Main*/
+
+.contenitore-card{
+    width:80%;
+    margin: 100px auto;
+}
+
+.riga{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 20px 10px;
+}
+
+.colonna{
+    width:calc((100% / 3) - 20px);
+    height:400px;
+    background-color:blue;
+    border:1px solid black;
+}
+
+.card{
+}
