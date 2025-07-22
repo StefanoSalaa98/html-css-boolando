@@ -1,0 +1,34 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Regole Header*/
+header{
+    height:50px;
+    background-color: #FF6900;
+}
+
+.contenitore-header{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    width:80%;
+    height:50px;
+}
+
+header ul{
+    list-style-type: none;
+    display:flex;
+}
+
+header ul li a{
+    color:white;
+    text-decoration: none;
+    margin-left:10px;
+}
+
+header img{
+    height:50%;
+}
