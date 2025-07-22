@@ -118,3 +118,13 @@ header img{
     gap:5px;  
 }
 
+.card .cambia{
+    display:none;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.card:hover .cambia{
+    display:block;
+}
