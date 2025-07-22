@@ -8,6 +8,8 @@
 header{
     height:50px;
     background-color: #FF6900;
+    position:fixed;
+    width: 100%;
 }
 
 .contenitore-header{
@@ -31,4 +33,14 @@ header ul li a{
 
 header img{
     height:50%;
+}
+
+main{
+    height:10000px;
+    background-color: blue;
+}
+
+footer{
+    height:10000px;
+    background-color: rgb(0, 255, 21);
 }
