@@ -117,31 +117,19 @@ header img{
 }
 
 .sconto{
-    text-align:center;
     background-color:red;
-    display: flex;
-    align-items: center;
-    padding:5px 10px;
 }
 
 .sostenibile{
-    text-align:center;
     background-color:#008000;
-    display: flex;
-    align-items: center;
-    padding:5px 10px;
+   
 }
 
 .marchetta{
-    position:absolute;
+    padding:5px 10px;
+    position:relative;
+    top:-100px;
     color:white;
-    top:80%;
-    left:0%;
-    width:12%;
-    height:4%;
-    display: flex;
-    align-items: center;
-    gap:5px;  
 }
 
 .card .cambia{
