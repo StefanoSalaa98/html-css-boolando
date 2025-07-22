@@ -86,6 +86,10 @@ header img{
     right:0%;
 }
 
+.cuore:hover{
+    color:red;
+}
+
 .cuore span{
     font-size:30px;
 }
@@ -128,3 +132,4 @@ header img{
 .card:hover .cambia{
     display:block;
 }
+
