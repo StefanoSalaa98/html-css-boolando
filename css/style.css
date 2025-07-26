@@ -113,15 +113,15 @@ header img{
 
 .sconto{
     background-color:red;
+    padding:5px 10px;
 }
 
 .sostenibile{
     background-color:#008000;
-   
+    padding:5px 10px;
 }
 
 .marchetta{
-    padding:5px 10px;
     position:relative;
     top:-100px;
     color:white;
