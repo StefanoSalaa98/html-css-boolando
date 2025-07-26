@@ -75,12 +75,7 @@ header img{
 }
 
 .colonna{
-    width:calc((100% / 3) - 20px);
-    min-height:500px;
-    /*DEBUG*/
-   /* background-color:blue; 
-    border:1px solid black;
-    flex-grow:1;*/
+    width:calc((100% / 3) - 30px);
 }
 
 .card img{
@@ -132,20 +127,20 @@ header img{
     color:white;
 }
 
-.card .cambia{
-    display:none;
-}
-
 .card .card1{
     display:block;
 }
 
-.card:hover .cambia{
-    display:block;
+.card .cambia{
+    display:none;
 }
 
 .card:hover .card1{
     display:none;
+}
+
+.card:hover .cambia{
+    display:block;
 }
 
 /*Regole Footer*/
